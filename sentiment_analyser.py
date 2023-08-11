@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title('Sentiment Analyser App')
+st.title('Feedback Analyser')
 
 form = st.form(key='sentiment-form')
 user_input = form.text_area('Enter your text')
